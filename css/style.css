@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#pagina{
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header1{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+#nav1{
+    width: 100%;
+    height: auto; 
+}
+#nav1 ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 80px;
+    list-style: none;
+}
+
+#nav1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18pt;
+}
+
+#pequisar{
+    width: 150px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 3px;    
+}
+
+
+
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+   
+}
+/* Fim header2 */
+#header2{
+    width: 20%;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+}
+#nav2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    line-height: 50px;   
+}
+#nav2 ul{           
+    list-style: none;
+}
+#nav2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+}
+#btnTweetar{
+    width: 90px;
+    height: 50px;
+    background-color: rgb(14, 148, 238);
+    color: white;
+    border-radius: 25px;
+    margin-left: 50%;
+    font-weight: bolder;    
+}
+#login{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 60px;
+}
+#loginUser{
+    display: flex;
+    gap: 10px;
+}
+.imgUser{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+/* Fim header2 */
+
+/* Inicio banners */
+#banner{ 
+    width: 55%;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+   
+}
+section{
+    width: 90%;
+    height: 750px;
+    border: 2px solid white;
+    margin-top: 5px;
+    padding-left: 20px;
+}
+#post{
+   display: flex; 
+   gap: 20px;
+   margin-top: 20px;   
+}
+.parag{
+    margin: 30px 20px;
+    color: rgb(14, 148, 238);
+}
+.conigImgPosts{
+    width: 80%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 0px auto;
+}
+
+#imgPost{
+    background-image: url(../images/posts/netbook.jpg);
+}
+#imgPost2{
+    background-image: url(../images/posts/flower.jpg);
+}
+#iconsPost{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+/* Fim Banners */
+/* Inicio Informações  */
+#inform{
+    width: 25%;
+    height: auto;
+    background-color: rgb(20, 20, 20);
+}
+
+/* Fim Informações */
