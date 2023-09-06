@@ -76,7 +76,15 @@ main{
     color: white;
     border-radius: 25px;
     margin-left: 50%;
-    font-weight: bolder;    
+    font-weight: bolder;
+    transition: 1s;   
+}
+#btnTweetar:hover{
+    width: 95px;
+    height: 55px;
+    background-color: blueviolet;
+    font-size: 14pt;
+    transition: 1s;
 }
 #login{
     display: flex;
